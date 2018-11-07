@@ -1,4 +1,5 @@
-function setEvents(){
+//COMPLETED ANIMATIONS AND OR TRANSITIONS (EXTRA FEATURE)
+function loadFifteen(){
 
 var ex1 =  document.getElementById("puzzlearea");
 
@@ -262,41 +263,15 @@ var h= document.getElementsByTagName('Body');
 
 //-------------make the boxes be beside each other and the images be in them----------------------
 let children = document.querySelectorAll("#puzzlearea div");//put in an array
-// let shufflebutton = document.getElementById("shufflebutton");
- //console.log(children);
+
  let x=0;
  let y =0;
- //let count =0;
- //let space1= '300px';
- //let space2= '300px';
- //var b_ground;
- //var timer;
-  var i;
+ 
+  /*var i;
   for ( i=0; i< children.length; i++)
   {
-   /*children[i].classList.add("puzzlepiece");
-   children[i].style.left = x+"px";  
-   children[i].style.top = y+"px";
-   children[i].style.backgroundPosition = `${-x}px ${-y}px`;
-   x +=100;
-   count +=1;
-   if (count%4==0){
-    	y+=100;
-    	x=0;
-   }
-   children[i].addEventListener("mouseover",function(event){
-        var targetElement = event.target || event.srcElement;
-        console.log(targetElement);
-        targetElement.style.border = "thin solid red";
-        console.log("red");
-    });
-   children[i].addEventListener("mouseout",function(event){
-        var targetElement = event.target || event.srcElement;
-        console.log(targetElement);
-        targetElement.style.border = "thin solid black";
-        console.log("black");
-    });*/
-}
+   
+}*/
     function red(){
     	h[0].style.backgroundColor= "red";// background turn red
     }
@@ -312,5 +287,5 @@ let children = document.querySelectorAll("#puzzlearea div");//put in an array
 }
 
 window.onload = function() {
-	setEvents(); 
+	loadFifteen(); 
 }
